@@ -1,4 +1,5 @@
 function FindProxyForURL(url,host){
+     console.log(777,host)
      if (isResolvable(host)){
          return 'DIRECT';
      }
